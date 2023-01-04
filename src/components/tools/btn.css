@@ -1,0 +1,13 @@
+.tools{
+    border: 2px solid #999;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 1rem;
+}
+.btn-icon{
+    color: #DE3163;
+    margin-right: 5px;
+    font-size: 14px;
+}

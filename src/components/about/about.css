@@ -1,0 +1,32 @@
+.about{
+    padding-top: 5rem;
+}
+.heading{
+    text-align: center;
+}
+.about .h1{
+    color: #DE3163;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+}
+.icon{
+    color: #999 !important;
+    margin-bottom: 0rem !important;
+    font-size: 25px !important;
+}
+.about-content{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-content .left, .about-content .right{
+    width: 50%;
+}
+.about-content p{
+    font-size: 16px;
+    line-height: 24px;
+}

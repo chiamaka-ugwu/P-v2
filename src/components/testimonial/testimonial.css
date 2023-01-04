@@ -1,0 +1,26 @@
+
+
+.carousel{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.carousel-status {
+    display: none;
+}
+
+.thumbs-wrapper {
+    display: none;
+}
+.carousel .control-dots {
+    position: relative !important;
+}
+.img{
+    width: 100%;
+
+}
+.slider{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    background-color: red;
+}
