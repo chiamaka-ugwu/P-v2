@@ -11,7 +11,7 @@
 header img{
     width: 100%;
 }
-.text{
+.text1{
     position: absolute;
     top: 200px;
     z-index: 100;
@@ -23,18 +23,56 @@ header img{
     color: #DE3163;
     font-weight: 600;
 }
-.text h3{
+.text1 h3{
     font-size: 18px;
     font-weight: 500;
 }
-.text h1{
+.text1 h1{
     font-size: 60px;
 }
-.text p{
+.text1 p{
     font-size: 18px;
     margin-bottom: 0.5rem;
 
 }
-.text h2{
+.text1 h2{
     font-size: 18px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .bg-img{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden ;
+    }
+    .text1{
+        position: absolute;
+        top: 150px;
+        width: 90%;
+    }
+    .text1 h1{
+        font-size: 40px;
+    }
+    .text1 h3, .text1 p{
+        font-size: 17px;
+    }
+    .possess{
+        width: 60%;
+    }
+    .text1 h3{
+        margin-bottom: 0.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }

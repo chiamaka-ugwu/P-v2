@@ -6,7 +6,7 @@ import { faEnvelope, faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-i
 const Contact = () => {
   return (
     <>
-      <div className="about" id="contact">
+      <div className="about co" id="contact">
         <div className="heading">
           <FontAwesomeIcon icon={faPaperPlane} className="h1 icon" bounce />
           <h1 className="h1">Contact Me</h1>
@@ -23,7 +23,7 @@ const Contact = () => {
             <div class="icon">
             <FontAwesomeIcon icon={faEnvelope} className="i" beatFade />
             </div>
-            <a href="mailto:chiamakaugwu.m@gmail.com">
+            <a className="email" href="mailto:chiamakaugwu.m@gmail.com">
               chiamakaugwu.m@gmail.com
             </a>
           </div>
@@ -31,8 +31,6 @@ const Contact = () => {
             method="POST"
             name="contactForm"
             data-netlify="true"
-            data-aos="fade-up"
-            data-aos-duration="800"
           >
             <input type="text" name="fullname" placeholder="Full Name" />
             <input type="email" name="email" placeholder="Email Address" />

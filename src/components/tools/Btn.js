@@ -8,7 +8,7 @@ const Btn = ({name,}) => {
   return (
     <>
       <button className='tools'>
-        <FontAwesomeIcon icon={faCode} className="btn-icon" flip />
+        <FontAwesomeIcon icon={faCode} className="btn-icon" beat />
         {name}
       </button>
     </>

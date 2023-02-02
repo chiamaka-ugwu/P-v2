@@ -29,7 +29,7 @@ footer .credits a:hover{
     color: #999;
 }
 #button{
-    /* display: none; */
+    display: none;
     position: fixed;
     bottom: 4rem;
     right: 1rem;
@@ -40,4 +40,13 @@ footer .credits a:hover{
     cursor: pointer;
     padding: 0.7rem;
     border-radius: 4px;
+}
+
+
+
+@media screen and (max-width:1000px) {
+   footer .icons .ic{
+        margin: 3rem 1rem;
+        font-size: 25px;
+    }
 }

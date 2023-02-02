@@ -14,9 +14,6 @@ nav{
     width: 90%;
     margin: auto;
 }
-
-
-
 nav h1{
     color: #fff;
     font-size: 28px;
@@ -34,7 +31,6 @@ nav ul li a{
     text-decoration: none;
     margin-right: 1rem;
     border: 1px solid transparent;
-
 }
 nav .resume{
     padding: 10px 20px;
@@ -50,8 +46,40 @@ nav .resume:hover{
     color: #DE3163;
     border: none;
 }
-
 nav ul li a:hover, .active{
     border: 1px solid #fff;
     border-radius: 10px;
+}
+.mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .nav-content{
+        height: 5rem;
+    }
+    nav h1{
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

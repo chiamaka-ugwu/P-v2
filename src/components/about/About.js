@@ -1,11 +1,14 @@
 import React from "react";
 import "./about.css";
+import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
   return (
     <>
       <div className="about" id="about">
         <div className="heading">
+          <FontAwesomeIcon icon={faAddressCard} className="h1 icon" beat  />
           <h1 className="h1">About Me</h1>
         </div>
         <div className="about-content">
@@ -22,7 +25,8 @@ const About = () => {
               desire to start up a career in Frontend Development. I have gained
               valuable experience in the mentorship field and I enjoy imparting
               frontend knowledge in willing individuals. I am constantly
-              learning new skills to help improve myself as a developer and tutor.
+              learning new skills to help improve myself as a developer and
+              tutor.
             </p>
           </div>
         </div>

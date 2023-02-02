@@ -5,7 +5,7 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Nav from "../components/nav/Nav";
 import Projects from "../components/projects/Projects";
-// import Testimonial from "../components/testimonial/Testimonial";
+import Testimonial from "../components/testimonial/Testimonial";
 
 const HomePage = () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = () => {
       <Header />
       <About />
       <Projects />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Contact />
       <Footer />
     </>

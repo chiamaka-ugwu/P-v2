@@ -9,8 +9,8 @@ const Header = () => {
     <header>
       <div className="bg">
         <div className="dark"></div>
-        <img src={heroImage} alt="hero-image" />
-        <div className="text">
+        <img className="bg-img" src={heroImage} alt="hero-image" />
+        <div className="text1">
           <h3>
             HI, I'M <span className="pink">CHIAMAKA</span>
           </h3>
@@ -19,7 +19,7 @@ const Header = () => {
             I'm a creative developer passionate about developing user friendly
             and interactive frontend applications.
           </p>
-          <h2>
+          <h2 className="possess">
             I possess hard skills in  
             <span className="pink" style={{  marginLeft: "10px",fontWeight: "bold" }}>
             {"<"}
