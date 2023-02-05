@@ -11,8 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- OWL CAROUSEL -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
 
     <!-- <meta
@@ -39,42 +37,15 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+   
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <form name='contactForm' netlify hidden>
+      <input type='text' name='name' />
+      <input type='email' name='email' />
+      <textarea name='message'></textarea>
+    </form>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
-    <!-- OWL CAROUSEL -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            margin:10,
-            nav:false,
-            autoplay:true,
-            autoplayTimeout:4000,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:2
-                },
-                1000:{
-                    items:3
-                }
-            }
-        });
-    </script>
+    
 
 
   </body>
