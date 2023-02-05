@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/nav.css";
+import logo from "../../assets/images/logo.png"
 
 const Nav = () => {
 
@@ -22,6 +23,7 @@ const Nav = () => {
     <nav id="nav">
       <div className="nav-content">
         <h1>CHIAMAKA UGWU</h1>
+        <img src={logo} alt="logo" className="logo" />
         <ul className="desktop">
           <li>
             <a class="nav" href="#about">

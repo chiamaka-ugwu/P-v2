@@ -38,6 +38,9 @@ header img{
 .text1 h2{
     font-size: 18px;
 }
+.bg2{
+    display: none;
+}
 
 
 @media screen and (max-width:1000px) {
@@ -46,9 +49,15 @@ header img{
         height: 100vh;
         overflow-x: hidden ;
     }
+    .bg1{
+        display: none;
+    }
+    .bg2{
+        display: block;
+    }
     .text1{
         position: absolute;
-        top: 150px;
+        top: 180px;
         width: 90%;
     }
     .text1 h1{

@@ -19,6 +19,7 @@ footer .icons .ic:hover{
 footer .credits p{
     color: #fff;
     text-align: center;
+    font-size: 15px;
 }
 footer .credits a{
     color: #DE3163;
@@ -47,6 +48,6 @@ footer .credits a:hover{
 @media screen and (max-width:1000px) {
    footer .icons .ic{
         margin: 3rem 1rem;
-        font-size: 25px;
+        /* font-size: 30px; */
     }
 }

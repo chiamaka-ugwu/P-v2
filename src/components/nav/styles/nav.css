@@ -53,7 +53,9 @@ nav ul li a:hover, .active{
 .mobile{
     display: none;
 }
-
+.logo{
+    display: none;
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -69,7 +71,10 @@ nav ul li a:hover, .active{
     nav h1{
         font-size: 20px;
     }
-
+    .logo{
+        display: block;
+        /* width: ; */
+    }
 
 
 

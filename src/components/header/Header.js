@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/header.css";
 import heroImage from "../../assets/images/bg.jpg";
+import mobile from "../../assets/images/bg2.jpg"
 import { Typewriter } from "react-simple-typewriter";
 import Button from "../button/Button";
 
@@ -9,7 +10,8 @@ const Header = () => {
     <header>
       <div className="bg">
         <div className="dark"></div>
-        <img className="bg-img" src={heroImage} alt="hero-image" />
+        <img className="bg-img bg1" src={heroImage} alt="hero-image" />
+        <img className="bg-img bg2" src={mobile} alt="hero-image" />
         <div className="text1">
           <h3>
             HI, I'M <span className="pink">CHIAMAKA</span>

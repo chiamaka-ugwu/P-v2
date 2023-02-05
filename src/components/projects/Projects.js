@@ -42,10 +42,10 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a href="" className="code" target="_blank">
+              {/* <a href="" className="code" target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -57,9 +57,9 @@ const Projects = ({ name }) => {
           <div className="right">
             <h3 className="pink title1">GoSaveMe</h3>
             <p className="desc">
-              Cutrate is a hospitality brand which aims to provide affordable
-              hotels for it's users. This website was built to ease booking
-              challenges and increase hotel visibiltity.
+              GOSAVEME is designed to be the most trusted online crowdfunding
+              website for hospital patients in need of financial assistance to
+              help them get the best of medical care to stay alive.
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
             <Btn name="React" />
@@ -75,7 +75,11 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a href="" className="code" target="_blank">
+              <a
+                href="https://github.com/chiamaka-ugwu/GoSave-Me"
+                className="code"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
               </a>
@@ -90,9 +94,9 @@ const Projects = ({ name }) => {
           <div className="right">
             <h3 className="pink title1">Techyounity</h3>
             <p className="desc">
-              Cutrate is a hospitality brand which aims to provide affordable
-              hotels for it's users. This website was built to ease booking
-              challenges and increase hotel visibiltity.
+              Techyounity is a community which aims at bridging the gap between
+              getting into tech and being successful in tech. This website is
+              very user friendly and guarantees optimal user experience.
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
             <Btn name="React" />
@@ -108,7 +112,11 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a href="" className="code" target="_blank">
+              <a
+                href="https://github.com/chiamaka-ugwu/techYOUnity"
+                className="code"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
               </a>
@@ -123,9 +131,9 @@ const Projects = ({ name }) => {
           <div className="right">
             <h3 className="pink title1">Dynasty Perfumes</h3>
             <p className="desc">
-              Cutrate is a hospitality brand which aims to provide affordable
-              hotels for it's users. This website was built to ease booking
-              challenges and increase hotel visibiltity.
+              Dynasty Perfumes is a perfume brand. This website was built to
+              help the client reach his customers easier and faster. It helps
+              the customer to place orders easily.
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
             <Btn name="HTML" />
@@ -141,10 +149,10 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a href="" className="code" target="_blank">
+              {/* <a href="" className="code" target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -156,9 +164,9 @@ const Projects = ({ name }) => {
           <div className="right">
             <h3 className="pink title1">School Web App</h3>
             <p className="desc">
-              Cutrate is a hospitality brand which aims to provide affordable
-              hotels for it's users. This website was built to ease booking
-              challenges and increase hotel visibiltity.
+              This is a multi-page school management system. The website
+              features login and sign up pages for students and lecturers,
+              dashboards, course registration pages amongst others.
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
             <Btn name="React" />
@@ -174,7 +182,11 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a href="" className="code" target="_blank">
+              <a
+                href="https://github.com/chiamaka-ugwu/school-web-app"
+                className="code"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
               </a>
