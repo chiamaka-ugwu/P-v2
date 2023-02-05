@@ -33,7 +33,7 @@ const Contact = () => {
               chiamakaugwu.m@gmail.com
             </a>
           </div>
-          <form method="POST" name="contactForm">
+          <form name="contactForm" method="post" >
             <input type="hidden" name="form-name" value="contactForm" />
             <input type="text" name="fullname" placeholder="Full Name" />
             <input type="email" name="email" placeholder="Email Address" />
