@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import myPhoto from '../../assets/images/myphoto.jpg';
 
 const About = () => {
   return (
@@ -11,8 +12,10 @@ const About = () => {
           <FontAwesomeIcon icon={faAddressCard} className="h1 icon" beat  />
           <h1 className="h1">About Me</h1>
         </div>
-        <div className="about-content">
-          <div className="left"></div>
+        <div className="about-content about1">
+          <div className="left">
+            <img src={myPhoto} alt="Chiamaka" cl />
+          </div>
           <div className="right">
             <p>
               I am a hardworking and success-driven front-end{" "}

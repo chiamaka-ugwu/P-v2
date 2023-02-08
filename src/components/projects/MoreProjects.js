@@ -1,37 +1,33 @@
 import React from "react";
 import "./project.css";
-import cutrate from "../../assets/images/cutrate.png";
-import gosaveme from "../../assets/images/gosaveme.png";
-import techyounity from "../../assets/images/techyounity.png";
-import dynasty from "../../assets/images/dynasty.png";
-import schoolwebapp from "../../assets/images/schoolwebapp.png";
+import pms from "../../assets/images/product-school.png";
+import buzpay from "../../assets/images/buzpay.png";
+import sendwheels from "../../assets/images/sendwheels.png";
+import faq from "../../assets/images/faq.png";
+import fourCard from "../../assets/images/four-card.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Btn from "../tools/Btn";
 import { Link } from "react-router-dom";
 
-
-
-const Projects = ({ name }) => {
+const MoreProjects = () => {
   return (
     <>
-      <div className="about projects" id="projects">
+      <div className="about more">
         <div className="heading">
           <FontAwesomeIcon icon={faCode} className="h1 icon" spin />
-          <h1 className="h1">My Projects</h1>
+          <h1 className="h1">More Projects</h1>
         </div>
 
         <div className="about-content project-content">
           <div className="left">
-            <img src={cutrate} alt="cutrate.png" />
+            <img src={pms} alt="productschool.png" />
           </div>
           <div className="right">
-            <h3 className="pink title1">Cutrate.ng</h3>
+            <h3 className="pink title1">Harvoxx Product School</h3>
             <p className="desc">
-              Cutrate is a hospitality brand which aims to provide affordable
-              hotels for it's users. This website was built to ease booking
-              challenges and increase hotel visibiltity.
+              Landing page for a bootcamp organised by Harvoxx Product School
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
             <div className="div">
@@ -41,37 +37,8 @@ const Projects = ({ name }) => {
               <Btn name="Bootstrap" />
             </div>
             <div className="view">
-              <a href="https://cutrate.ng/" className="url" target="_blank">
-                <FontAwesomeIcon icon={faLink} />
-                <h3>URL</h3>
-              </a>
-              {/* <a href="" className="code" target="_blank">
-                <FontAwesomeIcon icon={faGithub} />
-                <h3>Code</h3>
-              </a> */}
-            </div>
-          </div>
-        </div>
-
-        <div className="about-content project-content swap">
-          <div className="left">
-            <img src={gosaveme} alt="gosaveme.png" />
-          </div>
-          <div className="right">
-            <h3 className="pink title1">GoSaveMe</h3>
-            <p className="desc">
-              GOSAVEME is designed to be the most trusted online crowdfunding
-              website for hospital patients in need of financial assistance to
-              help them get the best of medical care to stay alive.
-            </p>
-            <h3 className="pink tool">Tools/Languages</h3>
-            <Btn name="React" />
-            <Btn name="Supabase" />
-            <Btn name="MUI" />
-            <Btn name="CSS" />
-            <div className="view">
               <a
-                href="https://go-save-me.vercel.app/"
+                href="https://haps.harvoxx.com/"
                 className="url"
                 target="_blank"
               >
@@ -79,7 +46,41 @@ const Projects = ({ name }) => {
                 <h3>URL</h3>
               </a>
               <a
-                href="https://github.com/chiamaka-ugwu/GoSave-Me"
+                href="https://github.com/chiamaka-ugwu/Product-School"
+                className="code"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+                <h3>Code</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="about-content project-content swap">
+          <div className="left">
+            <img src={buzpay} alt="buzpay.png" />
+          </div>
+          <div className="right">
+            <h3 className="pink title1">BuzPay</h3>
+            <p className="desc">
+              Coming soon landing page for buzpayapp built with ReactJS
+            </p>
+            <h3 className="pink tool">Tools/Languages</h3>
+            <Btn name="React" />
+            <Btn name="HTML" />
+            <Btn name="CSS" />
+            <div className="view">
+              <a
+                href="https://buzpay-comingsooon.netlify.app/"
+                className="url"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLink} />
+                <h3>URL</h3>
+              </a>
+              <a
+                href="https://github.com/chiamaka-ugwu/buzzPay"
                 className="code"
                 target="_blank"
               >
@@ -92,23 +93,18 @@ const Projects = ({ name }) => {
 
         <div className="about-content project-content">
           <div className="left">
-            <img src={techyounity} alt="techyounity.png" />
+            <img src={sendwheels} alt="sendwheels.png" />
           </div>
           <div className="right">
-            <h3 className="pink title1">Techyounity</h3>
-            <p className="desc">
-              Techyounity is a community which aims at bridging the gap between
-              getting into tech and being successful in tech. This website is
-              very user friendly and guarantees optimal user experience.
-            </p>
+            <h3 className="pink title1">Sendwheels</h3>
+            <p className="desc">A bike delivery service webiste.</p>
             <h3 className="pink tool">Tools/Languages</h3>
-            <Btn name="React" />
-            <Btn name="MUI" />
-            <Btn name="JavaScript" />
+            <Btn name="HTML" />
             <Btn name="CSS" />
+            <Btn name="JavaScript" />
             <div className="view">
               <a
-                href="https://techyounity.vercel.app/"
+                href="https://chiamaka-ugwu.github.io/Sendwheels/"
                 className="url"
                 target="_blank"
               >
@@ -116,7 +112,7 @@ const Projects = ({ name }) => {
                 <h3>URL</h3>
               </a>
               <a
-                href="https://github.com/chiamaka-ugwu/techYOUnity"
+                href="https://github.com/chiamaka-ugwu/Sendwheels"
                 className="code"
                 target="_blank"
               >
@@ -129,56 +125,52 @@ const Projects = ({ name }) => {
 
         <div className="about-content project-content swap">
           <div className="left">
-            <img src={dynasty} alt="dynasty.png" />
+            <img src={faq} alt="faq.png" />
           </div>
           <div className="right">
-            <h3 className="pink title1">Dynasty Perfumes</h3>
+            <h3 className="pink title1">FAQ Accordion</h3>
+            <p className="desc">An FAQ section built with Javascript.</p>
+            <h3 className="pink tool">Tools/Languages</h3>
+            <Btn name="HTML" />
+            <Btn name="CSS" />
+            <Btn name="Javascript" />
+            <div className="view">
+              <a
+                href="https://chiamaka-ugwu.github.io/FAQ-Accordion/"
+                className="url"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLink} />
+                <h3>URL</h3>
+              </a>
+              <a
+                href="https://github.com/chiamaka-ugwu/FAQ-Accordion"
+                className="code"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+                <h3>Code</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="about-content project-content">
+          <div className="left">
+            <img src={fourCard} alt="fourcard.png" />
+          </div>
+          <div className="right">
+            <h3 className="pink title1">Four Card Section</h3>
             <p className="desc">
-              Dynasty Perfumes is a perfume brand. This website was built to
-              help the client reach his customers easier and faster. It helps
-              the customer to place orders easily.
+              Components highlighting the goals of AI powered tools.
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
             <Btn name="HTML" />
             <Btn name="CSS" />
             <Btn name="Javascript" />
-            <Btn name="Bootstrap" />
             <div className="view">
               <a
-                href="https://tem-plate.netlify.app/"
-                className="url"
-                target="_blank"
-              >
-                <FontAwesomeIcon icon={faLink} />
-                <h3>URL</h3>
-              </a>
-              {/* <a href="" className="code" target="_blank">
-                <FontAwesomeIcon icon={faGithub} />
-                <h3>Code</h3>
-              </a> */}
-            </div>
-          </div>
-        </div>
-
-        <div className="about-content project-content">
-          <div className="left">
-            <img src={schoolwebapp} alt="schoolwebapp.png" />
-          </div>
-          <div className="right">
-            <h3 className="pink title1">School Web App</h3>
-            <p className="desc">
-              This is a multi-page school management system. The website
-              features login and sign up pages for students and lecturers,
-              dashboards, course registration pages amongst others.
-            </p>
-            <h3 className="pink tool">Tools/Languages</h3>
-            <Btn name="React" />
-            <Btn name="Javascript" />
-            <Btn name="MUI" />
-            <Btn name="CSS" />
-            <div className="view">
-              <a
-                href="https://school-web-application.netlify.app/"
+                href="https://chiamaka-ugwu.github.io/Four-Card-Section/"
                 className="url"
                 target="_blank"
               >
@@ -186,7 +178,7 @@ const Projects = ({ name }) => {
                 <h3>URL</h3>
               </a>
               <a
-                href="https://github.com/chiamaka-ugwu/school-web-app"
+                href="https://github.com/chiamaka-ugwu/Four-Card-Section"
                 className="code"
                 target="_blank"
               >
@@ -197,8 +189,8 @@ const Projects = ({ name }) => {
           </div>
         </div>
         <div className="see-more">
-          <Link to='/projects'>
-            <button className="submit">See More</button>
+          <Link to="/">
+            <button className="submit">Back to Home</button>
           </Link>
         </div>
       </div>
@@ -206,4 +198,4 @@ const Projects = ({ name }) => {
   );
 };
 
-export default Projects;
+export default MoreProjects;

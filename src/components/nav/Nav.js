@@ -1,28 +1,30 @@
 import React from "react";
 import "./styles/nav.css";
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
-
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('Chiamaka.pdf').then(response => {
-        response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'Chiamaka.pdf';
-            alink.click();
-        })
-    })
-}
+    fetch("Chiamaka.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Chiamaka.pdf";
+        alink.click();
+      });
+    });
+  };
 
   return (
     <nav id="nav">
       <div className="nav-content">
-        <h1>CHIAMAKA UGWU</h1>
+        <Link to="/">
+          <h1>CHIAMAKA UGWU</h1>
+        </Link>
         <img src={logo} alt="logo" className="logo" />
         <ul className="desktop">
           <li>
@@ -46,11 +48,7 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a
-              class="resume"
-              href=""
-              onClick={onButtonClick}
-            >
+            <a class="resume" href="" onClick={onButtonClick}>
               Download My Resume
             </a>
           </li>
@@ -78,11 +76,7 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a
-              class="resume"
-              href=""
-              onClick={onButtonClick}
-            >
+            <a class="resume" href="" onClick={onButtonClick}>
               Download My Resume
             </a>
           </li>

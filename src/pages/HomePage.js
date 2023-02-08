@@ -8,6 +8,7 @@ import Projects from "../components/projects/Projects";
 import Testimonial from "../components/testimonial/Testimonial";
 
 const HomePage = () => {
+  window.scroll(0,0);
   return (
     <>
       <Nav />
