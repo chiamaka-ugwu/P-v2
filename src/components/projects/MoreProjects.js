@@ -72,7 +72,7 @@ const MoreProjects = () => {
             <Btn name="CSS" />
             <div className="view">
               <a
-                href="https://buzpay-comingsooon.netlify.app/"
+                href="https://buzzpay-comingsoon.netlify.app/"
                 className="url"
                 target="_blank"
               >

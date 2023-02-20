@@ -145,7 +145,7 @@ const Projects = ({ name }) => {
             <Btn name="Bootstrap" />
             <div className="view">
               <a
-                href="https://tem-plate.netlify.app/"
+                href="https://dynastyperfumes.netlify.app/"
                 className="url"
                 target="_blank"
               >
