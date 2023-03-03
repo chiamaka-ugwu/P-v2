@@ -24,7 +24,7 @@
     color: #999;
     text-decoration: none;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
 }
 .contact a:hover{
     color: #DE3163;
@@ -81,14 +81,8 @@
 
 
 @media screen and (max-width:1000px) {
-    .co{
-        /* padding-top: 7rem; */
-    }
     .contact .box{
         width: 85%;
-    }
-    .email{
-        font-size: 17px !important;
     }
     .contact .icon{
         margin: -0.3rem 1rem 0 1rem !important;
