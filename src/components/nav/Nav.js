@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/nav.css";
 import logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [open, setOpen] = useState(false);
+  const toggle = () => setOpen(!open);
+
+
+
   const onButtonClick = () => {
     // using Java Script method to get PDF file
     fetch("Chiamaka.pdf").then((response) => {
@@ -15,6 +20,7 @@ const Nav = () => {
         alink.href = fileURL;
         alink.download = "Chiamaka.pdf";
         alink.click();
+        toggle();
       });
     });
   };
@@ -25,8 +31,8 @@ const Nav = () => {
         <Link to="/">
           <h1>CHIAMAKA UGWU</h1>
         </Link>
-        <img src={logo} alt="logo" className="logo" />
-        <ul className="desktop">
+        <img src={logo} alt="logo" className="logo" onClick={toggle} />
+        <ul className="desktop hide-on-mobile">
           <li>
             <a class="nav" href="#about">
               About
@@ -54,24 +60,24 @@ const Nav = () => {
           </li>
         </ul>
 
-        <ul className="mobile">
+        <ul className={open ? "desktop " : "mobile"}>
           <li>
-            <a class="nav" href="#about">
+            <a class="nav" href="#about" onClick={toggle}>
               About
             </a>
           </li>
           <li>
-            <a class="nav" href="#projects">
+            <a class="nav" href="#projects" onClick={toggle}>
               Projects
             </a>
           </li>
           <li>
-            <a class="nav" href="#contact">
+            <a class="nav" href="#contact" onClick={toggle}>
               Contact
             </a>
           </li>
           <li>
-            <a class="nav" href="#footer">
+            <a class="nav" href="#footer" onClick={toggle}>
               Socials
             </a>
           </li>

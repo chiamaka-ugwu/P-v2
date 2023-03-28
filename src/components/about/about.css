@@ -59,6 +59,7 @@
     .about1 .left img{
         border-radius: 50%;
         margin-bottom: 2rem;
+        width: 200px;
     }
      .about1 .right{
         width: 95%;
