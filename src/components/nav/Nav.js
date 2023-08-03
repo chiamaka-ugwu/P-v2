@@ -11,14 +11,14 @@ const Nav = () => {
 
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("Chiamaka.pdf").then((response) => {
+    fetch("ChiamakaUgwu.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Chiamaka.pdf";
+        alink.download = "ChiamakaUgwu.pdf";
         alink.click();
         toggle();
       });
