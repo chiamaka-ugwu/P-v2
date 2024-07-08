@@ -42,7 +42,11 @@ const Projects = ({ name }) => {
               <Btn name="Bootstrap" />
             </div>
             <div className="view">
-              <a href="https://cutrate.ng/" className="url" target="_blank">
+              <a
+                href="https://chiamaka-ugwu.github.io/Cutrate-main/"
+                className="url"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
@@ -198,7 +202,6 @@ const Projects = ({ name }) => {
           </div>
         </div>
 
-
         <div className="about-content project-content">
           <div className="left">
             <img src={afm} alt="afm" />
@@ -233,12 +236,8 @@ const Projects = ({ name }) => {
           </div>
         </div>
 
-
-
-
-
         <div className="see-more">
-          <Link to='/projects'>
+          <Link to="/projects">
             <button className="submit">See More</button>
           </Link>
         </div>
