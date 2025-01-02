@@ -22,7 +22,7 @@ const Header = () => {
             and interactive frontend applications.
           </p>
           <h2 className="possess">
-            I possess hard skills in  
+            I possess strong skills in  
             <span className="pink" style={{  marginLeft: "10px",fontWeight: "bold" }}>
             {"<"}
               <Typewriter
@@ -32,7 +32,7 @@ const Header = () => {
                 typeSpeed={200}
                 deleteSpeed={50}
                 delaySpeed={1000}
-                words={["HTML", "CSS", "JS", "React", "Tailwind", "MUI", "Bootstrap"]}
+                words={["HTML", "CSS", "Javascript", "ReactJS", "NextJS", "TailwindCSS", "MUI", "Bootstrap"]}
                 // onLoop={(loopCount) =>
                 //   console.log(`Just completed loop ${loopCount}`)
                 // }

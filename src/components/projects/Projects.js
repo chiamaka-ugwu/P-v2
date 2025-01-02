@@ -207,7 +207,7 @@ const Projects = ({ name }) => {
             <img src={afm} alt="afm" />
           </div>
           <div className="right">
-            <h3 className="pink title1">AFM Privacy Policy</h3>
+            <h3 className="pink title1">AFM</h3>
             <p className="desc">
               This is a single page privacy policy web page.
             </p>

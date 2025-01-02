@@ -9,21 +9,21 @@ const Nav = () => {
 
 
 
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch("ChiamakaUgwu.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "ChiamakaUgwu.pdf";
-        alink.click();
-        toggle();
-      });
-    });
-  };
+  // const onButtonClick = () => {
+  //   // using Java Script method to get PDF file
+  //   fetch("ChiamakaUgwu.pdf").then((response) => {
+  //     response.blob().then((blob) => {
+  //       // Creating new object of PDF file
+  //       const fileURL = window.URL.createObjectURL(blob);
+  //       // Setting various property values
+  //       let alink = document.createElement("a");
+  //       alink.href = fileURL;
+  //       alink.download = "ChiamakaUgwu.pdf";
+  //       alink.click();
+  //       toggle();
+  //     });
+  //   });
+  // };
 
   return (
     <nav id="nav">
@@ -54,8 +54,11 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a class="resume" href="" onClick={onButtonClick}>
-              Download My Resume
+            <a
+              class="resume"
+              href="https://docs.google.com/document/d/15AmzDtQ5M2VlX4dvdrKY-IQ-pNOH-cVwe5N8ZzymgKo/edit?usp=sharing"
+            >
+              View Resume
             </a>
           </li>
         </ul>
@@ -82,8 +85,11 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a class="resume" href="" onClick={onButtonClick}>
-              Download My Resume
+            <a
+              class="resume"
+              href="https://docs.google.com/document/d/15AmzDtQ5M2VlX4dvdrKY-IQ-pNOH-cVwe5N8ZzymgKo/edit?usp=sharing"
+            >
+              View Resume
             </a>
           </li>
         </ul>
