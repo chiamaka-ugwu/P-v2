@@ -5,14 +5,13 @@ import gosaveme from "../../assets/images/gosaveme.png";
 import techyounity from "../../assets/images/techyounity.png";
 import dynasty from "../../assets/images/dynasty.png";
 import schoolwebapp from "../../assets/images/schoolwebapp.png";
-import afm from '../../assets/images/afm.png';
+import insiderjobs from "../../assets/images/job.png";
+import afm from "../../assets/images/afm.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Btn from "../tools/Btn";
 import { Link } from "react-router-dom";
-
-
 
 const Projects = ({ name }) => {
   return (
@@ -23,34 +22,34 @@ const Projects = ({ name }) => {
           <h1 className="h1">My Projects</h1>
         </div>
 
-        <div className="about-content project-content">
+        <div className="about-content project-content swap">
           <div className="left">
-            <img src={cutrate} alt="cutrate.png" />
+            <img src={insiderjobs} alt="insiderjobs.png" />
           </div>
           <div className="right">
-            <h3 className="pink title1">Cutrate.ng</h3>
+            <h3 className="pink title1">Job Portal</h3>
             <p className="desc">
-              Cutrate is a hospitality brand which aims to provide affordable
-              hotels for it's users. This website was built to ease booking
-              challenges and increase hotel visibiltity.
+              Job portal built with React + Vite, includes Clerk Authentication,
+              Admin Dashboard, job search and filter feature, etc.
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
-            <div className="div">
-              <Btn name="HTML" />
-              <Btn name="CSS" />
-              <Btn name="JavaScript" />
-              <Btn name="Bootstrap" />
-            </div>
+            <Btn name="React + Vite" />
+            <Btn name="TailwindCSS" />
+            <Btn name="Clerk Authentication" />
             <div className="view">
               <a
-                href="https://chiamaka-ugwu.github.io/Cutrate-main/"
+                href="https://job-portal-ten-mu.vercel.app/"
                 className="url"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              {/* <a href="" className="code" target="_blank">
+              {/* <a
+                href="https://github.com/chiamaka-ugwu/GoSave-Me"
+                className="code"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
               </a> */}
@@ -128,6 +127,41 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
               </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="about-content project-content">
+          <div className="left">
+            <img src={cutrate} alt="cutrate.png" />
+          </div>
+          <div className="right">
+            <h3 className="pink title1">Cutrate.ng</h3>
+            <p className="desc">
+              Cutrate is a hospitality brand which aims to provide affordable
+              hotels for it's users. This website was built to ease booking
+              challenges and increase hotel visibiltity.
+            </p>
+            <h3 className="pink tool">Tools/Languages</h3>
+            <div className="div">
+              <Btn name="HTML" />
+              <Btn name="CSS" />
+              <Btn name="JavaScript" />
+              <Btn name="Bootstrap" />
+            </div>
+            <div className="view">
+              <a
+                href="https://chiamaka-ugwu.github.io/Cutrate-main/"
+                className="url"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLink} />
+                <h3>URL</h3>
+              </a>
+              {/* <a href="" className="code" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
+                <h3>Code</h3>
+              </a> */}
             </div>
           </div>
         </div>
