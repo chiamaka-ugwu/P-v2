@@ -56,7 +56,7 @@ const Nav = () => {
           <li>
             <a
               class="resume"
-              href="https://docs.google.com/document/d/15AmzDtQ5M2VlX4dvdrKY-IQ-pNOH-cVwe5N8ZzymgKo/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1vfN0fXNUp2UsNCjOa_msWsgRMlH-SnjPyWzQ61hRAEk/edit?usp=sharing"
             >
               View Resume
             </a>
