@@ -1,7 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.css";
-import { faGithub, faInstagram, faLinkedin, faTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
@@ -26,14 +32,14 @@ const Footer = () => {
           </a>
         </div>
         <button id="button">
-        <FontAwesomeIcon icon={faArrowUp} className="ic" beatFade />
+          <FontAwesomeIcon icon={faArrowUp} className="ic" beatFade />
         </button>
 
         <div class="credits">
           <p>
-            Coded by{" "}
+            Developed by{" "}
             <a href="https://github.com/chiamaka-ugwu">Chiamaka Ugwu</a> | ©
-            2022 Copyright
+            2025 Copyright
           </p>
         </div>
       </footer>
