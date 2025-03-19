@@ -4,9 +4,9 @@ import cutrate from "../../assets/images/cutrate.png";
 import gosaveme from "../../assets/images/gosaveme.png";
 import techyounity from "../../assets/images/techyounity.png";
 import dynasty from "../../assets/images/dynasty.png";
-import schoolwebapp from "../../assets/images/schoolwebapp.png";
 import insiderjobs from "../../assets/images/job.png";
-import afm from "../../assets/images/afm.png";
+import pms from "../../assets/images/product-school.png";
+import sendwheels from "../../assets/images/sendwheels.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -119,14 +119,14 @@ const Projects = ({ name }) => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/chiamaka-ugwu/techYOUnity"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -201,71 +201,69 @@ const Projects = ({ name }) => {
 
         <div className="about-content project-content">
           <div className="left">
-            <img src={schoolwebapp} alt="schoolwebapp.png" />
+            <img src={sendwheels} alt="sendwheels.png" />
           </div>
           <div className="right">
-            <h3 className="pink title1">School Web App</h3>
-            <p className="desc">
-              This is a multi-page school management system. The website
-              features login and sign up pages for students and lecturers,
-              dashboards, course registration pages amongst others.
-            </p>
+            <h3 className="pink title1">Sendwheels</h3>
+            <p className="desc">A bike delivery service webiste.</p>
             <h3 className="pink tool">Tools/Languages</h3>
-            <Btn name="React" />
             <Btn name="HTML" />
-            <Btn name="MUI" />
             <Btn name="CSS" />
+            <Btn name="JavaScript" />
             <div className="view">
               <a
-                href="https://school-web-application.netlify.app/"
+                href="https://chiamaka-ugwu.github.io/Sendwheels/"
                 className="url"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
-                href="https://github.com/chiamaka-ugwu/school-web-app"
+              {/* <a
+                href="https://github.com/chiamaka-ugwu/Sendwheels"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
 
         <div className="about-content project-content">
           <div className="left">
-            <img src={afm} alt="afm" />
+            <img src={pms} alt="productschool.png" />
           </div>
           <div className="right">
-            <h3 className="pink title1">AFM</h3>
+            <h3 className="pink title1">Harvoxx Product School</h3>
             <p className="desc">
-              This is a single page privacy policy web page.
+              Landing page for a bootcamp organised by Harvoxx Product School
             </p>
             <h3 className="pink tool">Tools/Languages</h3>
-            <Btn name="React" />
-            <Btn name="HTML" />
-            <Btn name="TailwindCSS" />
+            <div className="div">
+              <Btn name="HTML" />
+              <Btn name="CSS" />
+              <Btn name="JavaScript" />
+              <Btn name="Bootstrap" />
+            </div>
             <div className="view">
               <a
-                href="https://afm-tailwind.vercel.app/"
+                href="https://haps.harvoxx.com/"
                 className="url"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
-                href="https://github.com/chiamaka-ugwu/afm-tailwind"
+              {/* <a
+                href="https://github.com/chiamaka-ugwu/Product-School"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
