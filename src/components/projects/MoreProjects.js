@@ -230,9 +230,9 @@ const MoreProjects = () => {
           </div>
         </div>
         <div className="see-more">
-          <Link to="https://chiamakaugwu.vercel.app/">
+          <a href="https://chiamakaugwu.vercel.app/">
             <button className="submit">Back to Home</button>
-          </Link>
+          </a>
         </div>
       </div>
     </>
