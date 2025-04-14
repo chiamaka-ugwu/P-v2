@@ -7,7 +7,7 @@ const ProjectPage = () => {
   window.scroll(0,0);
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <MoreProjects />
       <Footer />
     </>

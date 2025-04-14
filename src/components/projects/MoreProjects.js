@@ -10,6 +10,8 @@ import Btn from "../tools/Btn";
 import { Link } from "react-router-dom";
 import schoolwebapp from "../../assets/images/schoolwebapp.png";
 import afm from "../../assets/images/afm.png";
+import pms from "../../assets/images/product-school.png";
+
 
 const MoreProjects = () => {
   return (
@@ -18,6 +20,43 @@ const MoreProjects = () => {
         <div className="heading">
           <FontAwesomeIcon icon={faCode} className="h1 icon" spin />
           <h1 className="h1">More Projects</h1>
+        </div>
+
+        <div className="about-content project-content">
+          <div className="left">
+            <img src={pms} alt="productschool.png" />
+          </div>
+          <div className="right">
+            <h3 className="pink title1">Harvoxx Product School</h3>
+            <p className="desc">
+              Landing page for a bootcamp organised by Harvoxx Product School
+            </p>
+            <h3 className="pink tool">Tools/Languages</h3>
+            <div className="div">
+              <Btn name="HTML" />
+              <Btn name="CSS" />
+              <Btn name="JavaScript" />
+              <Btn name="Bootstrap" />
+            </div>
+            <div className="view">
+              <a
+                href="https://haps.harvoxx.com/"
+                className="url"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLink} />
+                <h3>URL</h3>
+              </a>
+              {/* <a
+                href="https://github.com/chiamaka-ugwu/Product-School"
+                className="code"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+                <h3>Code</h3>
+              </a> */}
+            </div>
+          </div>
         </div>
 
         <div className="about-content project-content swap">
@@ -42,14 +81,14 @@ const MoreProjects = () => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/chiamaka-ugwu/buzzPay"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -79,14 +118,14 @@ const MoreProjects = () => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/chiamaka-ugwu/school-web-app"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -113,14 +152,14 @@ const MoreProjects = () => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/chiamaka-ugwu/afm-tailwind"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -145,14 +184,14 @@ const MoreProjects = () => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/chiamaka-ugwu/FAQ-Accordion"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -179,19 +218,19 @@ const MoreProjects = () => {
                 <FontAwesomeIcon icon={faLink} />
                 <h3>URL</h3>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/chiamaka-ugwu/Four-Card-Section"
                 className="code"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <h3>Code</h3>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
         <div className="see-more">
-          <Link to="/">
+          <Link to="https://chiamakaugwu.vercel.app/">
             <button className="submit">Back to Home</button>
           </Link>
         </div>
